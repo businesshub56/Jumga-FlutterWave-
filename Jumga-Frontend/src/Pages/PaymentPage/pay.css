@@ -1,0 +1,9 @@
+.pay-container {
+  height: 100%;
+  padding: 30px;
+}
+.pay {
+  display: grid;
+  place-items: center;
+  /* height: 100%; */
+}

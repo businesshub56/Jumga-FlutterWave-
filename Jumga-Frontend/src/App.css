@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@font-face {
+  font-family: helveticaneue;
+  src: url(helveticaneue.woff);
+}
+body {
+  margin: 0px;
+  box-sizing: border-box;
+  /* padding-top: 100px; */
+  /* padding-bottom: 20px; */
+  font-family: helveticaneue;
+}
+
+input:focus::placeholder,
+textarea::placeholder {
+  color: transparent;
+  opacity: 0.2 !important;
+  font-size: 12px;
+}
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.4 !important;
+  font-size: 12px;
+}

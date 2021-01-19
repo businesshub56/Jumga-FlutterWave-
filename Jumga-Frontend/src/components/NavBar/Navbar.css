@@ -1,0 +1,48 @@
+.nav-container {
+  font-size: 20px;
+  /* font-weight: bold; */
+  /* color: white; */
+  background-color: #004182 !important;
+  /* background-color: #283e4a !important; */
+  /* border-bottom: 1px solid; */
+}
+
+a {
+  text-decoration: none;
+  color: white !important;
+}
+.logo {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Dancing+Script";
+  letter-spacing: 1.6px;
+}
+
+.nav-search-input {
+  color: black;
+
+  width: 350px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  /* background-color: white; */
+  /* background-image: url("../../Assesst/search.svg"); */
+  /* background-position: right; */
+  /* background-repeat: no-repeat; */
+  padding: 7px 10px 10px 7px;
+  transition: width 0.4s ease-in-out;
+}
+
+.nav-search-input:focus {
+  width: 400px;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-search-input {
+    width: auto;
+  }
+  .nav-search-input:focus {
+    width: 200px;
+  }
+}

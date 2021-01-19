@@ -1,0 +1,12 @@
+/* .foot-courses-list > ul li {
+  padding: 5px 0px;
+} */
+ul li {
+  margin: 0px;
+  list-style: none;
+}
+
+.contLink a {
+  text-decoration: none;
+  color: #111111 !important;
+}

@@ -1,0 +1,27 @@
+.signup-container {
+  max-width: 100%;
+  display: grid;
+  place-items: center;
+  margin: 30px;
+  padding-bottom: 30px;
+}
+
+textarea {
+  width: 100%;
+  background: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  border: 1px solid #004281;
+}
+textarea:focus {
+  outline: none;
+}
+
+/* @media screen and (max-width: 600px) {
+  .contactForm {
+    width: 100%;
+  }
+} */

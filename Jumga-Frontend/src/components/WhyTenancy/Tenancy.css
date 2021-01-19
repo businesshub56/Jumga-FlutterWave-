@@ -1,0 +1,51 @@
+.tenancy-section {
+  background: white;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  padding: 30px;
+}
+.section-title {
+  display: grid;
+  place-items: center;
+  margin-bottom: 30px;
+}
+.section-title-line {
+  background-color: #283e4a;
+  border: 1px solid red;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.1s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.cardShadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardShadow {
+  min-height: 350px;
+}
+.icon,
+.title,
+.content-info {
+  display: grid;
+  place-items: center;
+  padding: 15px;
+  /* padding-top: 10px; */
+}
+
+@media screen and (max-width: 480px) {
+  .tenancy-section {
+    background: white;
+    /* margin-top: 2%; */
+    /* margin-bottom: 5%; */
+    padding: 20px;
+  }
+}

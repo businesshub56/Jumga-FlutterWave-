@@ -1,0 +1,9 @@
+.formGroup {
+  width: 60%;
+}
+.place-form {
+  margin-top: 100px;
+  display: grid;
+  /* width: 50%; */
+  place-items: center;
+}

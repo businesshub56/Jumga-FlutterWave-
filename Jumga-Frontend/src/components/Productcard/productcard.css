@@ -1,0 +1,39 @@
+.embed-responsive .card-img-top {
+  object-fit: cover;
+}
+
+.cart-btn {
+  text-align: center;
+  color: "#FFFFFF";
+  /* background-color: "#fff"; */
+  border: none;
+  border-bottom-right-radius: "8px";
+  transition: 0.3s;
+}
+.cart-btn:hover,
+:focus {
+  /* background-color: #007bff; */
+  /* color: beige; */
+  border-style: none;
+  outline: none;
+}
+
+.cart-btn:visited {
+  outline: none;
+}
+
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.1s ease-out;
+}
+
+.grow:hover,
+.grow:focus {
+  transform: scale(1.05);
+}
+
+.cardShadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,10 @@
+.row-container {
+  padding: 10px;
+}
+.daily,
+.total {
+  background: #ffffff;
+  border: 1px solid #eef8fd;
+  box-sizing: border-box;
+  border-radius: 2px;
+}

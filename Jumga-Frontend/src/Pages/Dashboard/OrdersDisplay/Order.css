@@ -1,0 +1,4 @@
+.order-empty {
+  display: grid;
+  place-items: center;
+}

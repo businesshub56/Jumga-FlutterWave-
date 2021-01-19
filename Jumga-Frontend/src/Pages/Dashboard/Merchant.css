@@ -1,0 +1,115 @@
+/* .wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+} */
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  /* z-index: 1; */
+  top: 12%;
+  left: 0;
+  /* background: rgba(140, 145, 150, 1); */
+  background: rgba(186, 191, 195, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidebar-show {
+  /* margin-left: 250px; */
+  width: 0px;
+  display: none;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #111;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+  /* border-left: 10px solid #004281; */
+  /* background: #004281; */
+  background: rgba(140, 145, 150, 1);
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* .openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+} */
+
+.openbtn:hover {
+  background-color: #444;
+}
+.main-full {
+  margin-left: 0px;
+  transition: margin-left 0.5s;
+  width: 100%;
+}
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  width: 80%;
+  margin-left: 250px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+    display: inline;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sidebar {
+    /* display: none; */
+    display: inline;
+    /* width: 100%; */
+    height: auto;
+    width: 100%;
+    /* position: fixed; */
+    /* z-index: 1; */
+    top: 11%;
+    /* left: 0;*/
+  }
+  .sidebar a {
+    padding: 2px 2px 2px 12px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #111;
+    display: inline;
+    transition: 0.3s;
+  }
+  #main {
+    top: 5%;
+    width: 100%;
+    margin-left: 5px;
+    padding: 30px 2px;
+  }
+  /* .wrapper {
+    grid-template-columns: 0px 500px;
+  } */
+  /* #main {
+    margin-left: 0px;
+  } */
+}

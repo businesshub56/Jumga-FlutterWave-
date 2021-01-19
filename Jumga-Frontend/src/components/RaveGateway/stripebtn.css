@@ -1,0 +1,28 @@
+.StripeCheckout > span {
+  background-color: #2dcc5d !important;
+  background: rgb(45, 204, 93) !important;
+  /* background-image: linear-gradient(
+    rgb(45, 204, 93),
+    rgb(45, 204, 93)
+  ) !important; */
+  /* box-shadow: #2dcc5d !important; */
+}
+.StripeCheckout > span:visited,
+:focus {
+  background-color: #283e4a !important;
+  background: rgb(45, 204, 93) !important;
+  /* background-image: linear-gradient(
+    rgb(45, 204, 93),
+    rgb(45, 204, 93)
+  ) !important; */
+  box-shadow: #2dcc5d !important;
+  border-color: #2dcc5d !important;
+  outline-color: #2dcc5d !important;
+}
+.StripeCheckout {
+  border-color: #2dcc5d !important;
+  background-image: linear-gradient(
+    rgb(45, 204, 93),
+    rgb(45, 204, 93)
+  ) !important;
+}

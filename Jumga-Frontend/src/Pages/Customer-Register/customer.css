@@ -1,0 +1,10 @@
+.customer-container {
+  max-width: 100%;
+  display: grid;
+  place-items: center;
+  margin: 30px;
+  padding-bottom: 30px;
+}
+.bgColor {
+  background-color: "#ffffff";
+}

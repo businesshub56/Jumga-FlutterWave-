@@ -1,6 +1,6 @@
 # Jumga-FlutterWave-
 
-This app is done fot the Flutterwave Developer challenge. The frontend and the backend are seperated.
+This app is implemented for the Flutterwave Developer challenge. The frontend and the backend are seperated.
 
 ## Backend
 
@@ -11,6 +11,8 @@ The postman collection for the backend service can be accessed via this [link](h
 
 ## Frontend Service
 
-The frontend is written in React-Redux. Redux is used for state management and it leverages on react-router library. The services is hosted on vercel.com and can be accessed via this [link](https://businesshub-frontend.vercel.app/)
+The frontend is written in React-Redux. Redux is used for state management and it leverages on react-router library. The service is in the folder named **Jumga-Frontend**. The services is hosted on vercel.com and can be accessed via this [link](https://businesshub-frontend.vercel.app/)
 
 ## Application Demo
+
+This is the [link](https://drive.google.com/file/d/18LUMlSq8KWR5SM0F2Rgro1llhClCW2EQ/view?usp=sharing) to the demo video. This video captures some of the features on the application.
